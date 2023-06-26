@@ -1,0 +1,10 @@
+^C:\CODE\A_MYSELF\CODEFILE_CPP\TINYRENDERER\GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CODE/A_myself/CodeFile_cpp/TinyRenderer -BC:/CODE/A_myself/CodeFile_cpp/TinyRenderer --check-stamp-file C:/CODE/A_myself/CodeFile_cpp/TinyRenderer/glad/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

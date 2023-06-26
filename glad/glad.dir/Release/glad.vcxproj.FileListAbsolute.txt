@@ -1,0 +1,1 @@
+C:\CODE\A_myself\CodeFile_cpp\TinyRenderer\glad\glad.dir\Release\glad.lib
